@@ -1,0 +1,122 @@
+body {
+    background: #EBEBEB;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: rgb(50, 50, 50);
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+}
+
+tr.second-child {
+  padding: 10px, 20px;
+}
+
+#avatar {
+  width: 150px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  border: rgb(200, 200, 200);
+  border-width: 1px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px 25px;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+#social-links i {
+  margin: 0 0 5px 0;
+  font-size: 1.5em;  /*em -> par raport à la taille de police du body*/
+}
+
+.btn {
+  background-color: #6D313F;
+  border: 3px solid #6D313F;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #6D313F;
+}
+
+#restaurants-table img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#restaurants-table p {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  text-align: justify;
+}
+#restaurants-table i {
+  font-size: 12px;
+}
+#restaurants-table td {
+  /*width: 40%;*/
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto; /* This automatically sets left/right margins and 0 to top/bottom */
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto; /* This automatically sets left/right margins and 0 to top/bottom */
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto; /* This automatically sets left/right margins and 0 to top/bottom */
+  }
+}

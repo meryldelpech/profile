@@ -99,6 +99,11 @@ a {
   padding: 10px;
 }
 
+.container {
+  width: 900px;
+  margin: auto;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -116,7 +121,7 @@ a {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 400px;
     margin: 0 auto; /* This automatically sets left/right margins and 0 to top/bottom */
   }
 }
